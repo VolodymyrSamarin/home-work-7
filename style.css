@@ -1,0 +1,92 @@
+div.divs{
+    max-width: 300px;
+    height: auto;
+    display: inline-block;
+    background-color: rgb(59, 95, 24);
+    opacity: 80%;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    clear: both;
+    border: 1px solid black;
+
+}
+
+div.span{
+    clear: both;
+    width: 280px;
+    height: auto;
+    display: inline-block;
+    background-color: rgb(21, 151, 71);
+    margin: 10px;
+    padding: 10px;
+    box-sizing: content-box;
+    border: 1px solid black;
+}
+.container {
+    width: min(100% , 1400px); 
+    margin-inline: auto; 
+}
+
+div.flotleft{
+    float: left;
+    width: 90px;
+    height: auto;
+    border: 1px solid black;
+    padding: 5px;
+    box-sizing: content-box;
+    background-color: salmon;
+}
+
+div.flotright{
+    float: right;
+    width: 90px;
+    height: auto;
+    border: 1px solid black;
+    padding: 5px;
+    box-sizing: content-box ;
+    background-color: salmon;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    left: auto;
+    top: 0px;
+    bottom: auto;
+}
+
+div.ovfl{
+    overflow: auto;
+    width: 1000px;
+}
+
+div.span1{
+    max-width: 300px;
+    height: auto;
+    display: inline-block;
+    background-color: rgb(59, 95, 24);
+    opacity: 80%;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    clear: both;
+    border: 1px solid black;
+    position: bottom;
+
+}
+
+div.divs.fixed{
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    background-color: rgb(59, 95, 24);
+    opacity: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    clear: both;
+    border: 1px solid black;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    overflow: scroll;
+}
